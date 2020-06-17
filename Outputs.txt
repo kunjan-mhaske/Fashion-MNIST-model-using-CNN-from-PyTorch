@@ -1,0 +1,104 @@
+For BATCH SIZE 100
+
+Device cuda 0
+Properties: _CudaDeviceProperties(name='GeForce 840M', major=5, minor=0, total_memory=4096MB, multi_processor_count=3)
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)
+Training Start.....
+Batch size: 100
+Epoch: 1/25, Approximated Loss: 1.129848426663125
+Epoch: 2/25, Approximated Loss: 1.0628678306316999
+Epoch: 3/25, Approximated Loss: 1.0472933776605091
+Epoch: 4/25, Approximated Loss: 1.0382859022411237
+Epoch: 5/25, Approximated Loss: 1.0331926876351063
+Epoch: 6/25, Approximated Loss: 1.0284631376968758
+Epoch: 7/25, Approximated Loss: 1.0228337952777695
+Epoch: 8/25, Approximated Loss: 1.0192152504732668
+Epoch: 9/25, Approximated Loss: 1.016727340132348
+Epoch: 10/25, Approximated Loss: 1.0137242532972337
+Epoch: 11/25, Approximated Loss: 1.012320290380252
+Epoch: 12/25, Approximated Loss: 1.0093821302422084
+Epoch: 13/25, Approximated Loss: 1.0061071088245355
+Epoch: 14/25, Approximated Loss: 1.0055807673689396
+Epoch: 15/25, Approximated Loss: 1.0032560717207135
+Epoch: 16/25, Approximated Loss: 1.0003648341147342
+Epoch: 17/25, Approximated Loss: 0.9998924694040924
+Epoch: 18/25, Approximated Loss: 0.9982057388716853
+Epoch: 19/25, Approximated Loss: 0.9966053588667699
+Epoch: 20/25, Approximated Loss: 0.9962048587829606
+Epoch: 21/25, Approximated Loss: 0.9952492450573656
+Epoch: 22/25, Approximated Loss: 0.9936388998174107
+Epoch: 23/25, Approximated Loss: 0.9926942509291903
+Epoch: 24/25, Approximated Loss: 0.9914221831039787
+Epoch: 25/25, Approximated Loss: 0.9909889172591675
+___________________________Finished Training________________________________
+________________________________________________________________________________
+The sample comparision between ground truth vs the predicted labels
+
+Ground Truth:  T-shirt/top | Dress | Shirt | Sandal | Pullover | Pullover | Dress | Trouser | T-shirt/top | Sandal
+Predicted:	 T-shirt/top | Dress | Shirt | Sandal | Pullover | Pullover | Dress | Trouser | T-shirt/top | Sandal
+
+Accuracy of network: 89.76 %
+
+_______________________Accuracies per class______________________________
+Accuracy of T-shirt/top : 91 %
+Accuracy of Trouser : 100 %
+Accuracy of Pullover : 85 %
+Accuracy of Dress : 92 %
+Accuracy of Coat : 87 %
+Accuracy of Sandal : 91 %
+Accuracy of Shirt : 75 %
+Accuracy of Sneaker : 96 %
+Accuracy of Bag : 94 %
+Accuracy of Ankle boot : 97 %
+
+###########################################################################################################
+Batch size: 32
+Accuracy of network: 88.72 %
+_______________________Accuracies per class______________________________
+Accuracy of T-shirt/top : 83 %
+Accuracy of Trouser : 96 %
+Accuracy of Pullover : 84 %
+Accuracy of Dress : 90 %
+Accuracy of Coat : 82 %
+Accuracy of Sandal : 96 %
+Accuracy of Shirt : 60 %
+Accuracy of Sneaker : 96 %
+Accuracy of Bag : 98 %
+Accuracy of Ankle boot : 93 %
+
+################################################################################################
+Batch size: 64
+Accuracy of network: 88.94 %
+_______________________Accuracies per class______________________________
+Accuracy of T-shirt/top : 86 %
+Accuracy of Trouser : 94 %
+Accuracy of Pullover : 88 %
+Accuracy of Dress : 90 %
+Accuracy of Coat : 81 %
+Accuracy of Sandal : 98 %
+Accuracy of Shirt : 50 %
+Accuracy of Sneaker : 98 %
+Accuracy of Bag : 94 %
+Accuracy of Ankle boot : 91 %
+
+################################################################################################
+Batch size: 256
+Accuracy of network: 87.76 %
+_______________________Accuracies per class______________________________
+Accuracy of T-shirt/top : 80 %
+Accuracy of Trouser : 100 %
+Accuracy of Pullover : 76 %
+Accuracy of Dress : 85 %
+Accuracy of Coat : 88 %
+Accuracy of Sandal : 100 %
+Accuracy of Shirt : 57 %
+Accuracy of Sneaker : 95 %
+Accuracy of Bag : 93 %
+Accuracy of Ankle boot : 100 %
